@@ -13,16 +13,18 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 
 	<title> {{Config::get('app.name')}} | @yield('page_title')</title>
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('css/app.css')}}"> -->
     <link rel="stylesheet" href="{{asset('css/style_web.css')}}">
     <link rel="stylesheet" href="{{asset('fontawesome/css/all.css')}}">
     <!-- <link rel="stylesheet" href="{{asset('css/normalize.css')}}"> -->
-    <!-- <link rel="stylesheet" href="{{asset('css/slick.css')}}"> -->
-    <!-- <link rel="stylesheet" href="{{asset('css/slick-theme.css')}}"> -->
+    <link rel="stylesheet" href="{{asset('css/slick.css')}}">
+    <link rel="stylesheet" href="{{asset('css/slick-theme.css')}}">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 
 
     <script src="{{asset('js/jquery.js')}}"></script>
     <script src="{{asset('js/slick.js')}}"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 
 
     @vite('resources/js/app.js')

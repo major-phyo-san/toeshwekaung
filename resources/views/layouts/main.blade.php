@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('body-content')
-    <div id="app" class="main-container">
+    <div id="app" class="main-container bg-white">
         <div>
             @include('layouts.navbar')
         </div>

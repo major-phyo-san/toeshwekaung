@@ -1,12 +1,15 @@
-.font-inter, .input-ui {
-  font-family: 'Lato',sans-serif; }
-
+@charset "UTF-8";
 * {
-  font-family: 'louis',sans-serif; }
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+  padding: 0; }
 
 body {
   margin: 0; }
 
+@font-face {
+  font-family: 'poppin';
+  src: url("../fonts/Poppins-Regular.ttf") format("truetype"); }
 .btn-clear:focus {
   outline: none; }
 
@@ -25,38 +28,38 @@ body {
 .small-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #888; }
 
-.sidebar {
-  position: fixed;
-  width: 16%;
-  height: 100vh;
-  background-color: #0580CD;
-  box-sizing: border-box;
-  overflow-y: auto; }
+.navBar {
+  /* box-shadow: 2px 4px 4px #eee; */
+  background-color: white;
+  padding: 1rem; }
 
-.sidebar-list li a {
+.navBar-ul {
+  width: 100%;
+  color: black;
+  font-size: 16px;
+  height: 20vh; }
+
+.navBar-ul-a {
   position: relative;
-  display: flex;
-  align-items: baseline;
-  padding: 0.5rem 1rem 0.5rem 2rem;
-  color: white;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  margin-top: 0.25rem; }
+  display: block;
+  padding: 1rem 1rem;
+  color: black; }
 
-.sidebar-list li a i {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-right: 0.75rem;
-  width: 1rem;
-  text-align: center; }
+.active {
+  color: black;
+  /* background-color: #17A89A; */
+  border-radius: 6px;
+  position: relative; }
 
-.sidebar-list li a.active {
-  background: #fff4;
-  padding-left: 1rem;
-  margin-left: 1rem;
-  padding-right: 0;
-  margin-right: 1rem;
-  border-radius: 6px; }
+.active::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 30%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: black; }
 
 .content-container {
   width: 84%;
@@ -65,25 +68,6 @@ body {
   padding-right: 2%;
   background: #EDEDED;
   min-height: 100vh; }
-
-.input-clear, .input-form, .search-box input:focus {
-  outline: none; }
-
-.search-box input::placeholder {
-  text-align: center; }
-
-.search-box {
-  background: white;
-  position: relative; }
-
-.search-box input {
-  padding: 0.45rem 0.75rem 0.45rem 2.4rem;
-  width: 88%; }
-
-.search-box i {
-  position: absolute;
-  top: calc(50% - 8px);
-  left: 14px; }
 
 .label-form {
   font-size: 0.875rem;
@@ -112,37 +96,78 @@ body {
   outline: none !important;
   box-shadow: none !important; }
 
-.content-navbar {
-  width: 84%;
-  height: 50px;
-  margin-left: 16%;
-  padding-left: 2%;
-  padding-right: 2%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.scrolled {
+  background-color: white;
+  color: black; }
 
-.right-nav-content {
-  margin-right: 20px; }
-
-.notiIcon {
-  position: relative; }
-
-.modal {
-  position: absolute;
-  color: black;
-  background-color: #fafafa;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
-
-.custom-file-upload {
+.slider-arrow .slick-prev {
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
   display: inline-block;
-  padding: 6px 12px;
-  cursor: pointer;
-  border: 1px solid #ccc;
-  border-radius: 4px; }
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  top: 0;
+  right: 48px;
+  left: unset;
+  z-index: 30; }
 
-.custom-file-upload span {
-  margin-right: 10px;
-  /* Adjust as needed */ }
+.slider-arrow .slick-prev:before {
+  font-family: "Font Awesome 5 Pro" !important;
+  content: "" !important;
+  color: black; }
+
+.slider-arrow .slick-next {
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  top: 0;
+  right: 0;
+  z-index: 30; }
+
+.slider-arrow .slick-next:before {
+  font-family: "Font Awesome 5 Pro" !important;
+  content: "" !important;
+  color: black; }
+
+.portfolio-arrow .slick-prev {
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  top: 2rem;
+  right: 6rem;
+  left: unset;
+  z-index: 30; }
+
+.portfolio-arrow .slick-prev:before {
+  font-family: "Font Awesome 5 Pro" !important;
+  content: "" !important;
+  color: black; }
+
+.portfolio-arrow .slick-next {
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  top: 2rem;
+  right: 3rem;
+  z-index: 30; }
+
+.portfolio-arrow .slick-next:before {
+  font-family: "Font Awesome 5 Pro" !important;
+  content: "" !important;
+  color: black; }
 
 /*# sourceMappingURL=style_web.css.map */
