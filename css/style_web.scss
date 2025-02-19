@@ -1,0 +1,195 @@
+
+// .font-inter{
+//     font-family: 'Lato',sans-serif;
+// }
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding:0;
+
+}
+body{
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'poppin';
+    src:  url('../fonts/Poppins-Regular.ttf') format('truetype'),
+}
+.btn-clear:focus{
+    outline: none;
+}
+
+.main-container{
+
+}
+.small-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+.small-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.small-scrollbar::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
+
+/* Handle on hover */
+.small-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.navBar{
+    /* box-shadow: 2px 4px 4px #eee; */
+    background-color: white;
+    padding: 1rem;
+}
+.navBar-ul{
+    // padding: 0 7.5%;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    height: 20vh;
+}
+// #navBar ul li{
+    
+// }
+.navBar-ul-a{
+    position: relative;
+    display:block;
+    padding: 1rem 1rem;
+    color: black;
+}
+.active{
+    color: black;
+    /* background-color: #17A89A; */
+    border-radius: 6px;
+    position: relative;
+}
+.active::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30%;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background-color: black;
+}
+.content-container{
+    width: 84%;
+    margin-left: 16%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: #EDEDED;
+    min-height: 100vh;
+}
+
+
+.label-form{
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    margin-bottom: 12px;
+    display: block;
+}
+.input-form{
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    border-radius: 4px;
+    background: transparent;
+}
+.input-ui {
+    font-size: 0.875rem!important;
+    line-height: 1.25rem!important;
+    border: 1px solid #d1d5db!important;
+    padding: 9px 6px!important;
+    width: 100%!important;
+    background: white!important;
+    border-radius: 0.35rem!important;
+    // @extend .font-inter;
+  }
+.input-ui:focus{
+    outline: none!important;
+    box-shadow: none!important;
+  }
+
+.scrolled{
+    background-color: white;
+    color: black;
+}
+.slider-arrow .slick-prev{
+    font-family: 'Font Awesome 5 Pro'!important;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    top: 0;
+    right: 48px;
+    left: unset;
+    z-index: 30;
+}
+.slider-arrow .slick-prev:before{
+    font-family: 'Font Awesome 5 Pro'!important;
+    content: "\f104"!important;
+    color:black;
+}
+.slider-arrow .slick-next{
+    font-family: 'Font Awesome 5 Pro'!important;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    top: 0;
+    right: 0;
+    z-index: 30;
+}
+.slider-arrow .slick-next:before{
+    font-family: 'Font Awesome 5 Pro'!important;
+    content: "\f105"!important;
+    color:black;
+}
+
+.portfolio-arrow .slick-prev{
+    font-family: 'Font Awesome 5 Pro'!important;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    top: 2rem;
+    right: 6rem;
+    left: unset;
+    z-index: 30;
+}
+.portfolio-arrow .slick-prev:before{
+    font-family: 'Font Awesome 5 Pro'!important;
+    content: "\f104"!important;
+    color:black;
+}
+.portfolio-arrow .slick-next{
+    font-family: 'Font Awesome 5 Pro'!important;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    top: 2rem;
+    right: 3rem;
+    z-index: 30;
+}
+.portfolio-arrow .slick-next:before{
+    font-family: 'Font Awesome 5 Pro'!important;
+    content: "\f105"!important;
+    color:black;
+}
