@@ -31,8 +31,8 @@
                 </div>
             </div>
         </section>
-        <section class="bg-white mb-8 lg:mb-16">
-            <div class="grid grid-cols-2 gap-x-0 w-[88%] mx-auto">
+        <section class="bg-white mb-8 lg:mb-16 animation-one">
+            <div class="grid grid-cols-2 gap-x-0 w-10/12 mx-auto">
                 <div class="col-span-2 lg:col-span-1">
                     <div class="pl-4 lg:pl-20 mb-4 lg:mb-6">
                         <p class="text-xl lg:text-2xl text-[#EDBC0E] mb-2">
@@ -90,8 +90,8 @@
             </div>
         </section>
 
-        <section class="text-black mb-8 lg:mb-16">
-            <div id="portfolio_slider" class=" w-[88%] mx-auto portfolio-arrow">
+        <section class="text-black mb-8 lg:mb-16 animation-two">
+            <div id="portfolio_slider" class=" w-10/12 mx-auto portfolio-arrow">
                 <div class="relative">
                     <img src="{{ asset('img/four.png') }}" class=" aspect-[16/8]" alt="">
                     <p class=" absolute top-6 left-8 text-black text-lg">
@@ -146,8 +146,8 @@
 
         
 
-        <section class="text-black mb-16 pt-4">
-            <div id="customer_slider" class=" w-[88%] mx-auto slider-arrow">
+        <section class="text-black mb-16 pt-4 animation-three">
+            <div id="customer_slider" class=" w-10/12 mx-auto slider-arrow">
                 @for ($i = 0; $i < 1; $i++)
                 <div>
                     <div class="grid grid-cols-8 gap-x-12 gap-y-12 py-8">
@@ -212,7 +212,7 @@
 
 
 
-        <section class="mb-12 lg:mb-24">
+        <section class="mb-12 lg:mb-24 animation-four">
             <div class="grid grid-cols-2 lg:grid-cols-4 grid-rows-1">
                 <div class=" bg-[#7D0103] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-sign-out-alt text-white text-2xl"></i>
@@ -249,7 +249,7 @@
         </section>
 
 
-        <section class="mb-12 lg:mb-24">
+        <section class="mb-12 lg:mb-24 animation-five">
             <p class=" w-full text-center text-lg lg:text-4xl text-black mb-4">Our Happy Clients</p>
             <div class=" flex justify-center gap-x-12">
                 <img src="{{ asset('img/image 1.png') }}" class=" w-10 lg:w-40 h-10 lg:h-40" alt="">
@@ -263,51 +263,118 @@
     </div>
 
     <script>
-    $('#customer_slider').slick({
-        infinite: true,
-        arrows:true,
-        dot:false,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-        ],
-    });
+        gsap.registerPlugin(ScrollTrigger);
 
-    $('#portfolio_slider').slick({
-        infinite: true,
-        arrows:true,
-        dot:false,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-        cssEase: 'linear'
 
-    });
-</script>
+        gsap.to('.animation-one', {
+            scrollTrigger: {
+                trigger: '.animation-one',
+                start: 'top 80%', // Start animation when hero section is in the center
+                end: 'bottom center', // End animation when hero section leaves the center
+                toggleActions: 'play none none none', // Play animation on enter, reverse on leave
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+
+        gsap.to('.animation-two', {
+            scrollTrigger: {
+                trigger: '.animation-two',
+                start: 'top 90%', // Start animation when hero section is in the center
+                end: 'bottom center', // End animation when hero section leaves the center
+                toggleActions: 'play none none none', // Play animation on enter, reverse on leave
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+
+        gsap.to('.animation-three', {
+            scrollTrigger: {
+                trigger: '.animation-three',
+                start: 'top 110%', // Start animation when hero section is in the center
+                end: 'bottom center', // End animation when hero section leaves the center
+                toggleActions: 'play none none reverse', // Play animation on enter, reverse on leave
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+
+        gsap.to('.animation-four', {
+            scrollTrigger: {
+                trigger: '.animation-four',
+                start: 'top 110%', // Start animation when hero section is in the center
+                end: 'bottom center', // End animation when hero section leaves the center
+                toggleActions: 'play none none reverse', // Play animation on enter, reverse on leave
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+
+        gsap.to('.animation-five', {
+            scrollTrigger: {
+                trigger: '.animation-five',
+                start: 'top 110%', // Start animation when hero section is in the center
+                end: 'bottom center', // End animation when hero section leaves the center
+                toggleActions: 'play none none none', // Play animation on enter, reverse on leave
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        $('#customer_slider').slick({
+            infinite: true,
+            arrows:true,
+            dot:false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    },
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    },
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    },
+                },
+            ],
+        });
+
+        $('#portfolio_slider').slick({
+            infinite: true,
+            arrows:true,
+            dot:false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            cssEase: 'linear'
+
+        });
+    </script>
 
 @endsection
