@@ -1,7 +1,7 @@
 <?php
 
 // Adjust the paths based on your project structure
-$laravelPath = '/home/zawpszw2/public_html';
+$laravelPath = '/home/zawpszw2/public_html/toeshwekaung.com';
 $appPath = $laravelPath . '/storage/app/public';
 $linkPath = $laravelPath . '/storage';
 
