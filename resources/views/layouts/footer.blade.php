@@ -1,4 +1,4 @@
-<footer class="bg-[#7D0103] text-white overflow-hidden" id="contact_section">
+<footer class="bg-[#7D0103] text-white overflow-hidden animation-footer" id="contact_section">
         <div class=" w-10/12 mx-auto py-10 grid grid-cols-12 gap-x-0 lg:gap-x-8 gap-y-8 text-sm">
             <aside class="col-span-12 lg:col-span-4 xl:col-span-4 ">
                 <p class="footer-list-title mb-8">
@@ -45,4 +45,20 @@
         </div>
     </footer>
 
-    
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+
+        gsap.to('.animation-footer', {
+            scrollTrigger: {
+                trigger: '.animation-footer',
+                start: 'top 110%', // Start animation when hero section is in the center
+                end: 'bottom center', // End animation when hero section leaves the center
+                toggleActions: 'play none none none', // Play animation on enter, reverse on leave
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+    </script>

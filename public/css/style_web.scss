@@ -12,7 +12,6 @@ body{
     margin: 0;
 }
 
-
 @font-face {
     font-family: 'poppin';
     src:  url('../fonts/Poppins-Regular.ttf') format('truetype'),
@@ -192,4 +191,29 @@ body{
     font-family: 'Font Awesome 5 Pro'!important;
     content: "\f105"!important;
     color:black;
+}
+
+
+
+.parallax-container {
+    text-align: center;
+    // color: var(--color);
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-image: url(../img/one.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #0005;
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+  }
+
+.animation-one,.animation-two,.animation-three,.animation-four,.animation-five,.animation-footer{
+    opacity: 0;
+    transform: translateY(50px);
 }
