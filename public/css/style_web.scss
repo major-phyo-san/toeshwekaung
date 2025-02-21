@@ -67,6 +67,7 @@ body{
     /* background-color: #17A89A; */
     border-radius: 6px;
     position: relative;
+    padding-bottom: 6px;
 }
 .active::after{
     content: '';
@@ -78,6 +79,14 @@ body{
     bottom: -4px;
     background-color: black;
 }
+.sidebar-active{
+    color: black;
+    /* background-color: #17A89A; */
+    border-radius: 6px;
+    position: relative;
+    background-color: #0000001d;
+}
+
 .content-container{
     width: 84%;
     margin-left: 16%;
@@ -214,6 +223,15 @@ body{
   }
 
 .animation-one,.animation-two,.animation-three,.animation-four,.animation-five,.animation-footer{
+    opacity: 0;
+    transform: translateY(50px);
+}
+.project-one,.project-two,.project-three,.project-four,.project-five{
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.team-one,.team-two,.team-three,.team-four,.team-five,.team-six,.team-seven,.team-eight,.team-nine{
     opacity: 0;
     transform: translateY(50px);
 }

@@ -2,6 +2,7 @@
 
 @section('page_title', 'Team')
 @section('team', 'active')
+@section('team-sidebar', 'sidebar-active')
 
 @section('content')
     <div>
@@ -17,8 +18,7 @@
         </section>
         <section class="mb-16">
             <div class=" grid grid-cols-1 lg:grid-cols-3 gap-x-12 gap-y-12 w-10/12 mx-auto ">
-                @for ($i = 0; $i < 9; $i++)
-                <div class="text-center">
+                <div class="text-center team-one">
                     <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
                     <div class="p-6">
                         <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
@@ -28,9 +28,201 @@
                         </p>
                     </div>
                 </div>
-                @endfor
+                <div class="text-center team-two">
+                    <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
+                    <div class="p-6">
+                        <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
+                        <p class="text-3xl text-[#EDBC0E] mb-4"><Cc:noie>CEO</Cc:noie></p>
+                        <p class="text-black leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center team-three">
+                    <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
+                    <div class="p-6">
+                        <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
+                        <p class="text-3xl text-[#EDBC0E] mb-4"><Cc:noie>CEO</Cc:noie></p>
+                        <p class="text-black leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center team-four">
+                    <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
+                    <div class="p-6">
+                        <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
+                        <p class="text-3xl text-[#EDBC0E] mb-4"><Cc:noie>CEO</Cc:noie></p>
+                        <p class="text-black leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center team-five">
+                    <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
+                    <div class="p-6">
+                        <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
+                        <p class="text-3xl text-[#EDBC0E] mb-4"><Cc:noie>CEO</Cc:noie></p>
+                        <p class="text-black leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center team-six">
+                    <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
+                    <div class="p-6">
+                        <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
+                        <p class="text-3xl text-[#EDBC0E] mb-4"><Cc:noie>CEO</Cc:noie></p>
+                        <p class="text-black leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="text-center team-seven">
+                    <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
+                    <div class="p-6">
+                        <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
+                        <p class="text-3xl text-[#EDBC0E] mb-4"><Cc:noie>CEO</Cc:noie></p>
+                        <p class="text-black leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center team-eight">
+                    <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
+                    <div class="p-6">
+                        <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
+                        <p class="text-3xl text-[#EDBC0E] mb-4"><Cc:noie>CEO</Cc:noie></p>
+                        <p class="text-black leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center team-nine">
+                    <img src="{{ asset('img/two.png') }}" class=" aspect-[3/4] w-full" alt="">
+                    <div class="p-6">
+                        <p class="text-black text-2xl mb-1">Kaung Saw Win</p>
+                        <p class="text-3xl text-[#EDBC0E] mb-4"><Cc:noie>CEO</Cc:noie></p>
+                        <p class="text-black leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div>
+                </div> -->
             </div>
         </section>
     </div>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
 
+
+        gsap.to('.team-one', {
+            scrollTrigger: {
+                trigger: '.team-one',
+                start: 'top 120%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        gsap.to('.team-two', {
+            scrollTrigger: {
+                trigger: '.team-two',
+                start: 'top 120%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        gsap.to('.team-three', {
+            scrollTrigger: {
+                trigger: '.team-three',
+                start: 'top 120%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+
+        gsap.to('.team-four', {
+            scrollTrigger: {
+                trigger: '.team-four',
+                start: 'top 80%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        gsap.to('.team-five', {
+            scrollTrigger: {
+                trigger: '.team-five',
+                start: 'top 80%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        gsap.to('.team-six', {
+            scrollTrigger: {
+                trigger: '.team-five',
+                start: 'top 80%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        gsap.to('.team-seven', {
+            scrollTrigger: {
+                trigger: '.team-five',
+                start: 'top 70%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        gsap.to('.team-eight', {
+            scrollTrigger: {
+                trigger: '.team-five',
+                start: 'top 70%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        gsap.to('.team-nine', {
+            scrollTrigger: {
+                trigger: '.team-five',
+                start: 'top 70%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+    </script>
 @endsection
