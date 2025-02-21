@@ -52,9 +52,9 @@
         gsap.to('.animation-footer', {
             scrollTrigger: {
                 trigger: '.animation-footer',
-                start: 'top 110%', // Start animation when hero section is in the center
-                end: 'bottom center', // End animation when hero section leaves the center
-                toggleActions: 'play none none none', // Play animation on enter, reverse on leave
+                start: 'top 110%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
             },
             opacity: 1,
             y: 0,

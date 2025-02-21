@@ -2,6 +2,7 @@
 
 @section('page_title', 'Home')
 @section('home', 'active')
+@section('home-sidebar', 'sidebar-active')
 
 @section('content')
 
@@ -90,7 +91,7 @@
             </div>
         </section>
 
-        <section class="text-black mb-8 lg:mb-16 animation-two">
+        <section class="text-black mb-8 lg:mb-16 animation-two" id="portfolio_section">
             <div id="portfolio_slider" class=" w-10/12 mx-auto portfolio-arrow">
                 <div class="relative">
                     <img src="{{ asset('img/four.png') }}" class=" aspect-[16/8]" alt="">
@@ -146,9 +147,9 @@
 
         
 
-        <section class="text-black mb-16 pt-4 animation-three">
+        <section class="text-black mb-16 pt-4 animation-three" id="testimonial_section">
             <div id="customer_slider" class=" w-10/12 mx-auto slider-arrow">
-                @for ($i = 0; $i < 1; $i++)
+                @for ($i = 0; $i < 3; $i++)
                 <div>
                     <div class="grid grid-cols-8 gap-x-12 gap-y-12 py-8">
                         <div class=" col-span-8 lg:col-span-2 px-8">
@@ -208,26 +209,21 @@
             </div>
         </section>
 
-
-
-
-
-        <section class="mb-12 lg:mb-24 animation-four">
-            <div class="grid grid-cols-2 lg:grid-cols-4 grid-rows-1">
+        <section class="mb-12 lg:mb-24" id="service_section">
+            <div class="hidden lg:grid grid-cols-2 lg:grid-cols-4 grid-rows-1">
                 <div class=" bg-[#7D0103] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-sign-out-alt text-white text-2xl"></i>
-                    <i class="test text-white text-2xl"></i>
                     <p class="text-sm text-white leading-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
                     </p>
                 </div>
-                <div class=" bg-[#D9D9D9] py-12 px-12 gap-y-24 hidden lg:flex flex-col">
+                <div class=" bg-[#D9D9D9] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-truck-container text-black text-2xl"></i>
                     <p class="text-sm text-black leading-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
                     </p>
                 </div>
-                <div class=" bg-[#7a7a7a] py-12 px-12 gap-y-24 hidden lg:flex flex-col">
+                <div class=" bg-[#7a7a7a] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-tree-palm text-white text-2xl"></i>
                     <p class="text-sm text-white leading-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
@@ -245,6 +241,48 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
                     </p>
                 </div> -->
+            </div>
+            <div class="block lg:hidden">
+                <div id="package_slider" class="h-fit">
+                    <div>
+                        <div class=" bg-[#7D0103] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
+                            <i class="fal fa-sign-out-alt text-white text-2xl"></i>
+                            <p class="text-sm text-white leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class=" bg-[#D9D9D9] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
+                            <i class="fal fa-truck-container text-black text-2xl"></i>
+                            <p class="text-sm text-black leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class=" bg-[#7a7a7a] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
+                            <i class="fal fa-tree-palm text-white text-2xl"></i>
+                            <p class="text-sm text-white leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class=" bg-[#EDBC0D] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
+                            <i class="fal fa-bolt text-black text-2xl"></i>
+                            <p class="text-sm text-black leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class=" bg-[#676767] py-12 px-12 gap-y-24 flex flex-col">
+                        <i class="fal fa-alarm-clock text-white text-2xl"></i>
+                        <p class="text-sm text-white leading-6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        </p>
+                    </div> -->
+                </div>
             </div>
         </section>
 
@@ -305,18 +343,18 @@
             ease: 'power2.out',
         });
 
-        gsap.to('.animation-four', {
-            scrollTrigger: {
-                trigger: '.animation-four',
-                start: 'top 110%', // Start animation when hero section is in the center
-                end: 'bottom center', // End animation when hero section leaves the center
-                toggleActions: 'play none none reverse', // Play animation on enter, reverse on leave
-            },
-            opacity: 1,
-            y: 0,
-            duration: 1,
-            ease: 'power2.out',
-        });
+        // gsap.to('.animation-four', {
+        //     scrollTrigger: {
+        //         trigger: '.animation-four',
+        //         start: 'top 110%',
+        //         end: 'bottom center',
+        //         toggleActions: 'play none none reverse',
+        //     },
+        //     opacity: 1,
+        //     y: 0,
+        //     duration: 1,
+        //     ease: 'power2.out',
+        // });
 
         gsap.to('.animation-five', {
             scrollTrigger: {
@@ -374,6 +412,38 @@
             fade: true,
             cssEase: 'linear'
 
+        });
+        $('#package_slider').slick({
+            infinite: true,
+            arrows:false,
+            dot:false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    },
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    },
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    },
+                },
+            ],
         });
     </script>
 
