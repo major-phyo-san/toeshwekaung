@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-span-2 lg:col-span-1 flex justify-between flex-col pl-0 lg:pl-8">
-                    <div class="flex gap-x-8 w-10/12 mx-0 lg:mx-auto pt-12 mb-8 lg:mb-0">
+                    <div class="flex gap-x-4 lg:gap-x-8 w-10/12 mx-0 lg:mx-auto pt-12 mb-8 lg:mb-0">
                         <p class="text-4xl lg:text-6xl text-[#EDBC0E]">
                             3
                         </p>
@@ -81,7 +81,7 @@
                                 <!-- Experience -->
                             </span>
                         </p>
-                        <p class="text-4xl lg:text-6xl text-[#EDBC0E]">
+                        <p class="text-3xl lg:text-6xl text-[#EDBC0E]">
                             15+
                         </p>
                         <p class="text-base lg:text-xl text-black flex items-center">
@@ -170,9 +170,9 @@
         
 
         <section class="text-black mb-16 pt-4 animation-three" id="testimonial_section">
-            <div class=" w-10/12 mx-auto slider-arrow">
+            <div class=" w-10/12 mx-auto">
                 <div>
-                    <div class="grid grid-cols-8 gap-x-12 gap-y-12 py-8">
+                    <div class="grid grid-cols-8 gap-x-0 lg:gap-x-12 gap-y-12 py-8">
                         <div class=" col-span-8 lg:col-span-4 xl:col-span-2 px-8">
                             <div class="hidden lg:block relative mb-8">
                                 <i class="fas fa-quote-left absolute text-[#7D0103] bottom-[92%] right-full pr-4"></i>
@@ -208,7 +208,7 @@
                             </p>
                         </div>
                     
-                        <div id="customer_slider" class="col-span-12 lg:col-span-4 xl:col-span-6 w-10/12 mx-auto slider-arrow">
+                        <div id="customer_slider" class="col-span-8 lg:col-span-4 xl:col-span-6 w-full lg:w-10/12 mx-auto pt-4 lg:pt-0 slider-arrow">
                             @for ($i = 0; $i < 3; $i++)
                             <div class=" px-6 lg:px-16 text-center lg:text-left">
                                 <img src="{{ asset('img/hotpot.jpeg') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
@@ -396,14 +396,14 @@
                 {
                     breakpoint: 1280,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                     },
                 },
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                     },
                 },
