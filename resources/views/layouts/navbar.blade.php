@@ -1,5 +1,5 @@
-<div class=" fixed top-0 w-full z-[80] navbar hidden lg:block" id="navbar">
-    <div class="w-11/12 lg:!w-10/12 mx-auto flex justify-between py-1.5 items-center" style="width:92%">
+<div class=" fixed top-0 w-full z-[80] navbar hidden lg:block px-0" id="navbar">
+    <div class="w-11/12 lg:!w-10/12 mx-auto flex justify-between py-1.5 items-center">
         <div class="lg:flex self-center hidden">
             <img src="{{ asset('img/logo.png') }}" class="w-20 my-auto" alt="">
         </div>
@@ -40,11 +40,18 @@
                             Contacts
                     </a>
                 </li>
+                <li>
+                    <select id="language-selector" class="bg-transparent text-gray-600 px-2 py-1 rounded-md focus:outline-none focus:ring-0 focus:shadow-none">
+                        
+                        <option value="en">English</option>
+                        <option value="mm">မြန်မာ</option>
+                    </select>
+                </li>
             </ul>
         </div>
     </div>
 </div>
-<div class="drawer z-[80] grid lg:hidden">
+<div class="grid lg:hidden drawer z-[40] n">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content fixed top-0 left-0 right-0 bg-white shadow flex justify-end">
         <label for="my-drawer" class="py-1 px-4 m-2 block text-black w-fit">

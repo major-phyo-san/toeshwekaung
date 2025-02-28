@@ -6,32 +6,39 @@
 
 @section('content')
 
+
     <div>
         <section class="mb-12">
             <div class="relative h-full w-full">
                 <img class="w-full h-[60vh] lg:h-[100vh]" src="{{ asset('img/one.png') }}" alt="">
                 <div class="absolute right-[8%] bottom-8 lg:bottom-[22%] w-[50%] lg:w-[420px]">
                     <p class=" text-2xl lg:text-6xl text-black mb-4">
-                        DESIGN
+                        TOUCH
                     </p>
                     <p class=" text-2xl lg:text-6xl text-[#EDBC0E] mb-4">
-                        that's Inspire
+                        <!-- that's Inspire -->
+                        Your Dream
                     </p>
                     <div class="text-right w-full lg:w-[320px] ml-auto">
-                        <p class="text-black mb-2 text-sm">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        <p class="text-black mb-2 text-base" data-lang="text one">
+                            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit
                             <span class="hidden lg:inline">
                             , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-                            </span>
+                            </span> -->
                         </p>
                         <button class=" text-sm text-red-500">
-                            Read More <i class="fas fa-long-arrow-alt-right pl-0.5"></i>
+                            <span data-lang="read more"></span> <i class="fas fa-long-arrow-alt-right pl-0.5"></i>
                         </button>
                     </div>
                 
                 </div>
             </div>
         </section>
+        
+
+        
+
+
         <section class="bg-white mb-8 lg:mb-16 animation-one">
             <div class="grid grid-cols-2 gap-x-0 w-10/12 mx-auto">
                 <div class="col-span-2 lg:col-span-1">
@@ -63,28 +70,43 @@
                 <div class="col-span-2 lg:col-span-1 flex justify-between flex-col pl-0 lg:pl-8">
                     <div class="flex gap-x-8 w-10/12 mx-0 lg:mx-auto pt-12 mb-8 lg:mb-0">
                         <p class="text-4xl lg:text-6xl text-[#EDBC0E]">
-                            7
+                            3
                         </p>
                         <p class="text-base lg:text-xl text-black">
-                            Year <br>Experience
+                            <span data-lang="year">
+                                <!-- Year -->
+                            </span>
+                            <br>
+                            <span data-lang="experience">
+                                <!-- Experience -->
+                            </span>
                         </p>
                         <p class="text-4xl lg:text-6xl text-[#EDBC0E]">
                             15+
                         </p>
-                        <p class="text-base lg:text-xl text-black">
-                            Happy <br>Clients
+                        <p class="text-base lg:text-xl text-black flex items-center">
+                            <!-- <span data-lang="happy">
+                                Happy
+                            </span> 
+                            <br> -->
+                            <span data-lang="clients">
+                                <!-- Clients -->
+                            </span>
                         </p>
                     </div>
-                    <div class="w-10/12 mx-0 lg:mx-auto pb-6 lg:pb-12">
-                        <p class=" text-black text-lg mb-4 lg:mb-3">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            <br>
-                            incididunt ut labore et dolore magna 
-                            aliqua.Lorem ipsum dolor sit amet, consectetur 
+                    <div class="w-10/12 mx-0 lg:mx-auto pb-0">
+                        <p class=" text-black text-base mb-4 lg:mb-8" data-lang="paragraph design">
+                            <!-- Three years ago, we set out to build structures that stand the test of time while exceeding client expectations.
+                            Today, our construction company is a testament to hard work, integrity, and quality. 
+                            From homes to commercial spaces, we’ve completed projects that showcase our craftsmanship. 
+                            Our skilled professionals tailor each build to clients' needs, using cutting-edge technology and sustainable materials. 
+                            Beyond construction, we build strong relationships based on trust and transparency. -->
+                            <!-- <br> -->
+                             
                         </p>
                         <button class=" px-12 py-2 text-base text-[#7D0103] border border-gray-400">
-                            See More
+                            <!-- See More -->
+                             <span data-lang="see more"></span>
                         </button>
                     </div>
                 </div>
@@ -95,8 +117,8 @@
             <div id="portfolio_slider" class=" w-10/12 mx-auto portfolio-arrow">
                 <div class="relative">
                     <img src="{{ asset('img/four.png') }}" class=" aspect-[16/8]" alt="">
-                    <p class=" absolute top-6 left-8 text-black text-lg">
-                        Portfolio
+                    <p class=" absolute top-6 left-8 text-black text-lg" data-lang="portfolio">
+                        <!-- Portfolio -->
                     </p>
                     <p class=" absolute bottom-6 left-8 text-white text-lg">
                         ABC Trading Company
@@ -148,17 +170,16 @@
         
 
         <section class="text-black mb-16 pt-4 animation-three" id="testimonial_section">
-            <div id="customer_slider" class=" w-10/12 mx-auto slider-arrow">
-                @for ($i = 0; $i < 3; $i++)
+            <div class=" w-10/12 mx-auto slider-arrow">
                 <div>
                     <div class="grid grid-cols-8 gap-x-12 gap-y-12 py-8">
-                        <div class=" col-span-8 lg:col-span-2 px-8">
+                        <div class=" col-span-8 lg:col-span-4 xl:col-span-2 px-8">
                             <div class="hidden lg:block relative mb-8">
                                 <i class="fas fa-quote-left absolute text-[#7D0103] bottom-[92%] right-full pr-4"></i>
                                 <p class=" text-black text-4xl">
-                                    Customer Satisfaction is our 
+                                    <span data-lang="client satisfaction is our"></span>
                                     <span class="block relative w-fit">
-                                        Priority
+                                        <span data-lang="priority"></span>
                                         <i class="fas fa-quote-right absolute text-[#7D0103] top-0 left-full pl-4 text-base"></i>
                                     </span>
                                 </p>
@@ -166,7 +187,7 @@
                             <div class="block lg:hidden relative mb-8">
                                 <i class="fas fa-quote-left absolute text-[#7D0103] bottom-[92%] right-full pr-4"></i>
                                 <p class=" text-black text-4xl">
-                                        Customer 
+                                        Client 
                                     <span class="block pl-[20%]">
                                         Satisfaction
                                     </span>
@@ -180,32 +201,27 @@
                                 </p>
                             </div>
                             <p class="text-[#EDBC0E] text-2xl mb-3">
-                                Mg Mg
+                                Kaung Zaw Win
                             </p>
                             <p class="text-sm text-black">
-                                CEO
+                                Founder & MD
                             </p>
                         </div>
                     
-                        <div class=" col-span-8 lg:col-span-3 px-6 lg:px-16 text-center lg:text-left">
-                            <img src="{{ asset('img/hotpot.jpeg') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
-                            <p class="text-[#EDBC0E] text-2xl mb-1">Pork Hot Pot</p>
-                            <p class="text-sm text-gray-600 mb-4">Test meal</p>
-                            <p class="text-black leading-6">
-                            in East Asian cooking a dish consisting of raw ingredients such as thinly sliced meat and vegetables that are cooked by diners at the table by dipping them in boiling broth.
-                            </p>
-                        </div>
-                        <div class=" col-span-8 lg:col-span-3 px-6 lg:px-16 text-center lg:text-left">
-                            <img src="{{ asset('img/tom-yum-seafood.png') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0 mb-6" alt="">
-                            <p class="text-[#EDBC0E] text-2xl mb-1">Tom yum goong</p>
-                            <p class="text-sm text-gray-600 mb-4">Test meal</p>
-                            <p class="text-black leading-6">
-                                This best food Thai masterpiece teems with shrimp, mushrooms, tomatoes, lemongrass, galangal and kaffir lime leaves. Usually loaded with coconut milk and cream, the hearty soup unifies a host of favorite Thai tastes: sour, salty, spicy and sweet. Best of all is the price: cheap.
-                            </p>
+                        <div id="customer_slider" class="col-span-12 lg:col-span-4 xl:col-span-6 w-10/12 mx-auto slider-arrow">
+                            @for ($i = 0; $i < 3; $i++)
+                            <div class=" px-6 lg:px-16 text-center lg:text-left">
+                                <img src="{{ asset('img/hotpot.jpeg') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
+                                <p class="text-[#EDBC0E] text-2xl mb-1">Pork Hot Pot</p>
+                                <p class="text-sm text-gray-600 mb-4">Test meal</p>
+                                <p class="text-black leading-6">
+                                    in East Asian cooking a dish consisting of raw ingredients such as thinly sliced meat and vegetables that are cooked by diners at the table by dipping them in boiling broth.
+                                </p>
+                            </div>
+                            @endfor
                         </div>
                     </div>
                 </div>
-                @endfor
             </div>
         </section>
 
@@ -214,13 +230,13 @@
                 <div class=" bg-[#7D0103] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-sign-out-alt text-white text-2xl"></i>
                     <p class="text-sm text-white leading-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        We take pride in our Skilful Engineering Works, delivering precision, innovation, and durability in every project. Our expert team combines advanced technology with superior craftsmanship to create cost-effective, high-quality construction solutions that stand the test of time.
                     </p>
                 </div>
                 <div class=" bg-[#D9D9D9] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-truck-container text-black text-2xl"></i>
                     <p class="text-sm text-black leading-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                        Powered by highly trained professionals who bring precision and expertise to every project. With advanced technology and a team of skilled workers, we deliver durable, efficient, and high-quality construction solutions.
                     </p>
                 </div>
                 <div class=" bg-[#7a7a7a] py-12 px-12 gap-y-24 flex flex-col">
@@ -288,7 +304,7 @@
 
 
         <section class="mb-12 lg:mb-24 animation-five">
-            <p class=" w-full text-center text-lg lg:text-4xl text-black mb-4">Our Happy Clients</p>
+            <p class=" w-full text-center text-lg lg:text-4xl text-black mb-4" data-lang="our happy clients"></p>
             <div class=" flex justify-center gap-x-12">
                 <img src="{{ asset('img/image 1.png') }}" class=" w-10 lg:w-40 h-10 lg:h-40" alt="">
                 <img src="{{ asset('img/image 2.png') }}" class=" w-10 lg:w-40 h-10 lg:h-40" alt="">
@@ -374,11 +390,25 @@
             dot:false,
             autoplay: true,
             autoplaySpeed: 2000,
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             responsive: [
                 {
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    },
+                },
+                {
                     breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    },
+                },
+                {
+                    breakpoint: 768,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
