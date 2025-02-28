@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mb-12 lg:mb-40 group project-rwo">
+                <div class="mb-12 lg:mb-40 group project-two">
                     <div class="">
                         <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">CO CO Store</p>
                     </div>
