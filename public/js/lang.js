@@ -26,7 +26,11 @@
             "priority": "priority",
             "priority": "priority",
             "client satisfaction is our": "Client Satisfaction is our",
-            "priority": "priority",
+            "priority": "Priority",
+            "clinet": "Client",
+            "satisfaction": "Satisfaction",
+            "is our": "Is Our",
+            // "priority": "Priority",
             "our happy clients": "Our Happy Clients",
         },
         "mm": {
@@ -56,6 +60,10 @@
             "priority": "priority",
             "client satisfaction is our": "Client စိတ်ကျေနပ်မှုသည် ကျွန်ုပ်တို့ ပထမ ဦးစားပေး",
             "priority": "  ဖြစ်သည်",
+            "client": "Client ",
+            "satisfaction": "စိတ်ကျေနပ်မှုသည် ကျွန်ုပ်တို့ ",
+            "is our": "ပထမ ဦးစားပေး",
+            // "priority": "Priority",
             "our happy clients": "ကျွန်ုပ်တို့၏ပျော်ရွှင်သောဖောက်သည်များ",
         }
     };
