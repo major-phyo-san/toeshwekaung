@@ -95,11 +95,12 @@
         let lang = localStorage.getItem("language") || "en";
         setLanguage(lang);
 
-        // Change language on dropdown selection
         $("#language-selector").on("change", function () {
             setLanguage(this.value);
         });
-
-        // Set dropdown value
         $("#language-selector").val(lang);
+        $("#language-selector-mobile").on("change", function () {
+            setLanguage(this.value);
+        });
+        $("#language-selector-mobile").val(lang);
     });
