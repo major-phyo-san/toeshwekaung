@@ -6,7 +6,7 @@
         <div class="">
             <ul class="flex gap-x-2 lg:gap-x-6 navbar-ul text-black">
                 <li>
-                    <a href="/home" class=" @yield('home') ">
+                    <a href="/home" class=" @yield('home') " id="home_navbar">
                             Home
                     </a>
                 </li>
@@ -21,7 +21,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class=" @yield('project') portfolio_scroll">
+                    <a href="#" class=" @yield('project') " id="portfolio_scroll">
                             Portfolio
                     </a>
                 </li>
@@ -41,10 +41,10 @@
                     </a>
                 </li>
                 <li>
-                    <select id="language-selector" class="bg-transparent text-gray-600 px-2 py-1 rounded-md focus:outline-none focus:ring-0 focus:shadow-none">
+                    <select id="language-selector" class="bg-transparent text-gray-600 px-2 py-1 rounded-md text-sm focus:outline-none focus:ring-0 focus:shadow-none">
                         
-                        <option value="en">English</option>
-                        <option value="mm">မြန်မာ</option>
+                        <option value="en">en</option>
+                        <option value="mm">mm</option>
                     </select>
                 </li>
             </ul>
@@ -53,7 +53,11 @@
 </div>
 <div class="grid lg:hidden drawer z-[40] n">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-content fixed top-0 left-0 right-0 bg-white shadow flex justify-end">
+    <div class="drawer-content fixed top-0 left-0 right-0 bg-white shadow flex justify-between">
+        <select id="language-selector-mobile" class="bg-transparent text-gray-600 px-2 ml-2 py-1 rounded-md text-sm focus:outline-none focus:ring-0 focus:shadow-none">
+            <option value="en">en</option>
+            <option value="mm">mm</option>
+        </select>
         <label for="my-drawer" class="py-1 px-4 m-2 block text-black w-fit">
             <i class="fas fa-bars"></i>
         </label>
@@ -63,37 +67,37 @@
         <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
         <ul class="menu bg-white text-black min-h-full w-[40%] min-w-[156px] py-4 px-2">
             <li>
-                <a href="/home" class=" @yield('home-sidebar') ">
+                <a href="/home" class=" @yield('home-sidebar') focus:!bg-transparent active:!bg-transparent focus:!text-black active:!text-black">
                     Home
                 </a>
             </li>
             <li class="">
-                <a href="#" class=" @yield('service-sidebar') service_scroll">
+                <a href="#" class=" @yield('service-sidebar') service_scroll focus:!bg-transparent active:!bg-transparent focus:!text-black active:!text-black">
                     Services
                 </a>
             </li>
             <li>
-                <a href="/project" class=" @yield('project-sidebar') ">
+                <a href="/project" class=" @yield('project-sidebar') focus:!bg-transparent active:!bg-transparent focus:!text-black active:!text-black">
                     Project
                 </a>
             </li>
             <li>
-                <a href="#" class=" portfolio_scroll">
+                <a href="#" class=" portfolio_scroll focus:!bg-transparent active:!bg-transparent focus:!text-black active:!text-black">
                     Portfolio
                 </a>
             </li>
             <li>
-                <a href="/team" class=" @yield('team-sidebar') ">
+                <a href="/team" class=" @yield('team-sidebar') focus:!bg-transparent active:!bg-transparent focus:!text-black active:!text-black">
                     Team
                 </a>
             </li>
             <li>
-                <a href="/testimonials" class=" testimonial_scroll">
+                <a href="#" class=" testimonial_scroll focus:!bg-transparent active:!bg-transparent focus:!text-black active:!text-black">
                     Testimonials
                 </a>
             </li>
             <li>
-                <a href="/contact" class=" contact_scroll">
+                <a href="#" class=" contact_scroll focus:!bg-transparent active:!bg-transparent focus:!text-black active:!text-black">
                     Contacts
                 </a>
             </li>
@@ -102,7 +106,7 @@
 </div>
 <script>
     $(document).ready(function(){
-        $('.portfolio_scroll').on('click', function() {
+        $('#portfolio_scroll').on('click', function() {
             $('html, body').animate({
                 scrollTop: $('#portfolio_section').offset().top - 150
             }, 800);
