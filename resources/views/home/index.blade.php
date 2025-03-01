@@ -8,7 +8,7 @@
 
 
     <div>
-        <section class="mb-12">
+        <section class="mb-12" id="home">
             <div class="relative h-full w-full">
                 <img class="w-full h-[60vh] lg:h-[100vh]" src="{{ asset('img/one.png') }}" alt="">
                 <div class="absolute right-[8%] bottom-8 lg:bottom-[22%] w-[50%] lg:w-[420px]">
@@ -117,49 +117,49 @@
             <div id="portfolio_slider" class=" w-10/12 mx-auto portfolio-arrow">
                 <div class="relative">
                     <img src="{{ asset('img/four.png') }}" class=" aspect-[16/8]" alt="">
-                    <p class=" absolute top-6 left-8 text-black text-lg" data-lang="portfolio">
+                    <p class=" absolute left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)" data-lang="portfolio">
                         <!-- Portfolio -->
                     </p>
-                    <p class=" absolute bottom-6 left-8 text-white text-lg">
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
                         ABC Trading Company
                     </p>
-                    <p class=" absolute bottom-6 right-8 text-white text-lg">
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
                         Mandalay, Myanmar
                     </p>
                 </div>
                 <div>
                     <img src="{{ asset('img/three.png') }}" class="w-full aspect-[16/8]" alt="">
-                    <p class=" absolute top-6 left-8 text-black text-lg">
+                    <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
                         Portfolio
                     </p>
-                    <p class=" absolute bottom-6 left-8 text-white text-lg">
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
                         ABC Trading Company
                     </p>
-                    <p class=" absolute bottom-6 right-8 text-white text-lg">
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
                         Mandalay, Myanmar
                     </p>
                 </div>
                 <div>
                     <img src="{{ asset('img/five.png') }}" class=" aspect-[16/8]" alt="">
-                    <p class=" absolute top-6 left-8 text-black text-lg">
+                    <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
                         Portfolio
                     </p>
-                    <p class=" absolute bottom-6 left-8 text-white text-lg">
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
                         ABC Trading Company
                     </p>
-                    <p class=" absolute bottom-6 right-8 text-white text-lg">
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
                         Mandalay, Myanmar
                     </p>
                 </div>
                 <div>
                     <img src="{{ asset('img/six.png') }}" class=" aspect-[16/8]" alt="">
-                    <p class=" absolute top-6 left-8 text-black text-lg">
+                    <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
                         Portfolio
                     </p>
-                    <p class=" absolute bottom-6 left-8 text-white text-lg">
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
                         ABC Trading Company
                     </p>
-                    <p class=" absolute bottom-6 right-8 text-white text-lg">
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
                         Mandalay, Myanmar
                     </p>
                 </div>
@@ -264,7 +264,7 @@
                         <div class=" bg-[#7D0103] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
                             <i class="fal fa-sign-out-alt text-white text-2xl"></i>
                             <p class="text-sm text-white leading-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu
+                            We take pride in our Skilful Engineering Works, delivering precision, innovation, and durability in every project. Our expert team combines advanced technology with superior craftsmanship to create cost-effective, high-quality construction solutions that stand the test of time.
                             </p>
                         </div>
                     </div>
@@ -272,7 +272,7 @@
                         <div class=" bg-[#D9D9D9] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
                             <i class="fal fa-truck-container text-black text-2xl"></i>
                             <p class="text-sm text-black leading-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            Powered by highly trained professionals who bring precision and expertise to every project. With advanced technology and a team of skilled workers, we deliver durable, efficient, and high-quality construction solutions.
                             </p>
                         </div>
                     </div>
@@ -447,7 +447,7 @@
             infinite: true,
             arrows:false,
             dot:false,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -476,5 +476,75 @@
             ],
         });
     </script>
-
+    <script>
+        // $(document).ready(function () {
+            
+        //     function checkIfHome() {
+        //         let windowHeight = $(window).height();
+        //         let scrollTop = $(window).scrollTop();
+        //         var elementTop = $('#home').offset().top;
+        //         var elementHeight = $('#home').height();
+        //         if (scrollTop + windowHeight > elementTop + elementHeight * 0.1) {
+        //             setTimeout(() => {
+        //             $('#home_navbar').addClass('active');
+        //             }, 0);
+        //         }
+        //     }
+        //     function checkIfService() {
+        //         let windowHeight = $(window).height();
+        //         let scrollTop = $(window).scrollTop();
+        //         var elementTop = $('#service_section').offset().top - 200;
+        //         var elementHeight = $('#service_section').height();
+        //         if (scrollTop + windowHeight > elementTop) {
+        //             $('.service_scroll').addClass('active');
+        //             $('#home_navbar').removeClass('active');
+        //         }
+        //         if (scrollTop > elementTop + elementHeight){
+        //             $('.service_scroll').removeClass('active');
+        //         }
+        //         if (scrollTop < elementTop){
+        //             $('.service_scroll').removeClass('active');
+        //         }
+        //     }
+        //     function checkIfPortfolio() {
+        //         let windowHeight = $(window).height();
+        //         let scrollTop = $(window).scrollTop();
+        //         var elementTop = $('.animation-two').offset().top - 151;
+        //         var elementHeight = $('.animation-two').height();
+        //         if (scrollTop + windowHeight > elementTop) {
+        //             $('#home_navbar').removeClass('active');
+        //             $('#portfolio_scroll').addClass('active');
+        //             $('.service_scroll').removeClass('active');
+        //             console.log('hello')
+        //         }
+        //         if (scrollTop > elementTop + elementHeight){
+        //             $('#portfolio_scroll').removeClass('active');
+        //         }
+        //         if (scrollTop < elementTop){
+        //             $('#portfolio_scroll').removeClass('active');
+        //         }
+        //     }
+        //     function checkIfTestimonial() {
+        //         let windowHeight = $(window).height();
+        //         let scrollTop = $(window).scrollTop();
+        //         var elementTop = $('#testimonial_section').offset().top - 100;
+        //         var elementHeight = $('#testimonial_section').height();
+        //         if (scrollTop + windowHeight > elementTop) {
+        //             $('.testimonial_scroll').addClass('active');
+        //             $('#home_navbar').removeClass('active');
+        //         }
+        //         if (scrollTop > elementTop + elementHeight){
+        //             $('.testimonial_scroll').removeClass('active');
+        //         }
+        //         if (scrollTop < elementTop){
+        //             $('.testimonial_scroll').removeClass('active');
+        //         }
+        //     }
+            
+        //     $(window).on('scroll', checkIfService);
+        //     $(window).on('scroll', checkIfPortfolio);
+        //     $(window).on('scroll', checkIfTestimonial);
+        //     checkIfHome();
+        // });
+    </script>
 @endsection
