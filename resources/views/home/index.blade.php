@@ -227,29 +227,104 @@
 
         <section class="mb-12 lg:mb-24" id="service_section">
             <div class="hidden lg:grid grid-cols-2 lg:grid-cols-4 grid-rows-1">
-                <div class=" bg-[#7D0103] py-12 px-12 gap-y-24 flex flex-col">
+                <div class=" bg-[#7D0103] py-12 px-12 gap-y-20 flex flex-col">
                     <i class="fal fa-sign-out-alt text-white text-2xl"></i>
-                    <p class="text-sm text-white leading-6">
-                        We take pride in our Skilful Engineering Works, delivering precision, innovation, and durability in every project. Our expert team combines advanced technology with superior craftsmanship to create cost-effective, high-quality construction solutions that stand the test of time.
-                    </p>
+                    <div>
+                        <p class="text-sm text-white leading-6 mb-3">
+                            <!-- We take pride in our Skilful Engineering Works, delivering precision, innovation, and durability in every project. Our expert team combines advanced technology with superior craftsmanship to create cost-effective, high-quality construction solutions that stand the test of time. -->
+                            Technical Expertise
+                        </p>
+                        <ul class="text-gray-300 text-sm flex flex-col gap-y-2 list-disc pl-4">
+                            <li>
+                                Accurate blueprint reading and interpretation
+                            </li>
+                            <li>
+                                Structural analysis and integrity assessment
+                            </li>
+                            <li>
+                                Site surveying and precise measurements
+                            </li>
+                            <li>
+                                Compliance with building codes and safety regulations
+                            </li>
+                            <li>
+                                Equipment operation and maintenance
+                            </li>
+                            <li>
+                                High-quality materials selection and cost estimation High-quality materials selection and cost estimation
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class=" bg-[#D9D9D9] py-12 px-12 gap-y-24 flex flex-col">
+                <div class=" bg-[#D9D9D9] py-12 px-12 gap-y-20 flex flex-col">
                     <i class="fal fa-truck-container text-black text-2xl"></i>
-                    <p class="text-sm text-black leading-6">
-                        Powered by highly trained professionals who bring precision and expertise to every project. With advanced technology and a team of skilled workers, we deliver durable, efficient, and high-quality construction solutions.
-                    </p>
+                    <div>
+                        <p class="text-sm text-black leading-6 mb-3">
+                            <!-- Powered by highly trained professionals who bring precision and expertise to every project. With advanced technology and a team of skilled workers, we deliver durable, efficient, and high-quality construction solutions. -->
+                            Project Management
+                        </p>
+                        <ul class="text-black text-sm flex flex-col gap-y-2 list-disc pl-4">
+                            <li>
+                                Efficient project scheduling and timeline management
+                            </li>
+                            <li>
+                                Budget planning and cost control
+                            </li>
+                            <li>
+                                Vendor and subcontractor coordination
+                            </li>
+                            <li>
+                                Risk management and problem-solving
+                            </li>
+                            <li>
+                                Transparent client communication and progress reporting
+                            </li>
+                                
+                        </ul>
+                    </div>
                 </div>
                 <div class=" bg-[#7a7a7a] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-tree-palm text-white text-2xl"></i>
-                    <p class="text-sm text-white leading-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                    </p>
+                    <div>
+                        <p class="text-sm text-white leading-6 mb-3">
+                            <!-- Powered by highly trained professionals who bring precision and expertise to every project. With advanced technology and a team of skilled workers, we deliver durable, efficient, and high-quality construction solutions. -->
+                            Design & Innovation
+                        </p>
+                        <ul class="text-white text-sm flex flex-col gap-y-2 list-disc pl-4">
+                            <li>
+                                CAD and 3D modeling for accurate visualizations
+                            </li>
+                            <li>
+                                Sustainable and energy-efficient building solutions
+                            </li>
+                            <li>
+                                Custom architectural detailing to match your vision
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class=" bg-[#EDBC0D] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-bolt text-black text-2xl"></i>
-                    <p class="text-sm text-black leading-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                    </p>
+                    <div>
+                        <p class="text-sm text-black leading-6 mb-3">
+                            <!-- Powered by highly trained professionals who bring precision and expertise to every project. With advanced technology and a team of skilled workers, we deliver durable, efficient, and high-quality construction solutions. -->
+                            Commitment to Quality
+                        </p>
+                        <ul class="text-black text-sm flex flex-col gap-y-2 list-disc pl-4">
+                            <li>
+                                Meticulous attention to detail in every stage of construction
+                            </li>
+                            <li>
+                                Strong teamwork, leadership, and collaboration
+                            </li>
+                            <li>
+                                Adaptability to evolving project needs and on-site challenges
+                            </li>
+                            <li>
+                                Dedication to delivering on time and within budget
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <!-- <div class=" bg-[#676767] py-12 px-12 gap-y-24 flex flex-col">
                     <i class="fal fa-alarm-clock text-white text-2xl"></i>
@@ -304,13 +379,13 @@
 
 
         <section class="mb-12 lg:mb-24 animation-five">
-            <p class=" w-full text-center text-lg lg:text-4xl text-black mb-4" data-lang="our happy clients"></p>
-            <div class=" flex justify-center gap-x-12">
-                <img src="{{ asset('img/image 1.png') }}" class=" w-10 lg:w-40 h-10 lg:h-40" alt="">
-                <img src="{{ asset('img/image 2.png') }}" class=" w-10 lg:w-40 h-10 lg:h-40" alt="">
-                <!-- <img src="{{ asset('img/image 3.png') }}" class=" w-10 lg:w-40 h-10 lg:h-40" alt=""> -->
-                <img src="{{ asset('img/image 4.png') }}" class=" w-10 lg:w-40 h-10 lg:h-40" alt="">
-                <img src="{{ asset('img/image 5.png') }}" class=" w-10 lg:w-40 h-10 lg:h-40" alt="">
+            <p class=" w-full text-center text-lg lg:text-4xl text-black mb-0" data-lang="our happy clients"></p>
+            <div class=" flex justify-center gap-x-16 items-center">
+                <img src="{{ asset('img/portfolio_five.JPG') }}" class=" w-10 lg:w-52 h-10 lg:h-52" alt="">
+                <img src="{{ asset('img/portfolio_four.JPG') }}" class=" w-10 lg:w-36 h-10 lg:h-36" alt="">
+                <img src="{{ asset('img/portfolio_three.PNG') }}" class=" w-10 lg:w-28 h-10 lg:h-28 rounded" alt="">
+                <img src="{{ asset('img/portfolio_one.png') }}" class=" w-10 lg:w-48 h-10 lg:h-48" alt="">
+                <img src="{{ asset('img/portfolio_two.JPG') }}" class=" w-10 lg:w-28 h-10 lg:h-28" alt="">
             </div>
         </section>
         

@@ -32,7 +32,7 @@
                 </h6>
                 <ul class="flex flex-col gap-y-2">
                     <li>
-                        <a class="link link-hover mb-2">Facebook</a>
+                        <a href="https://www.facebook.com/share/18xfJ37n5d/?mibextid=wwXIfr" class="link link-hover mb-2">Facebook</a>
                     </li>
                     <li>
                         <a class="link link-hover mb-2">Twitter</a>
@@ -41,7 +41,7 @@
                         <a class="link link-hover mb-2">Instagram</a>
                     </li>
                     <li>
-                        <a class="link link-hover mb-2">Telegram</a>
+                        <a href="https://www.tiktok.com/@tsk.construction?_t=ZS-8uJcETpMRgF&_r=1" class="link link-hover mb-2">TikTok</a>
                     </li>
                 </ul>
             </nav>
@@ -55,71 +55,62 @@
                 </div> -->
 
                 <div class=" grid grid-cols-2 gap-x-4 gallery">
-                    <a href="{{ asset('img/three.png') }}" data-fancybox="gallery" class="mb-4">
-                        <img src="{{ asset('img/three.png') }}" class=" aspect-[16/8]">
-                    </a>
-                    <a href="{{ asset('img/four.png') }}" data-fancybox="gallery" class="mb-4">
-                        <img src="{{ asset('img/four.png') }}" class=" aspect-[16/8]">
-                    </a>
-                    <a href="{{ asset('img/five.png') }}" data-fancybox="gallery" class="mb-4">
-                        <img src="{{ asset('img/five.png') }}" class=" aspect-[16/8]">
-                    </a>
                     <a href="{{ asset('img/six.png') }}" data-fancybox="gallery" class="mb-4">
                         <img src="{{ asset('img/six.png') }}" class=" aspect-[16/8]">
                     </a>
-                    <a href="{{ asset('img/hotpot.jpeg') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/hotpot.jpeg') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f2.JPG') }}" data-fancybox="gallery" class="mb-4">
+                        <img src="{{ asset('img/f2.JPG') }}" class=" aspect-[16/8]">
                     </a>
-                    <a href="{{ asset('img/image 1.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/image 1.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f7.JPG') }}" data-fancybox="gallery" class="mb-4">
+                        <img src="{{ asset('img/f7.JPG') }}" class=" aspect-[16/8]">
                     </a>
-                    <a href="{{ asset('img/image 2.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/image 2.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f9.JPG') }}" data-fancybox="gallery" class="mb-4">
+                        <img src="{{ asset('img/f9.JPG') }}" class=" aspect-[16/8]">
                     </a>
-                    <a href="{{ asset('img/logo.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/logo.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f1.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f1.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/seven.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/seven.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f3.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f3.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/one.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/one.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f4.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f4.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/two.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/two.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f5.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f5.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/tom-yum-seafood.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/tom-yum-seafood.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f6.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f6.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/image 5.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/image 5.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f8.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f8.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/hotpot.jpeg') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/hotpot.jpeg') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f10.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f10.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/image 1.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/image 1.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f11.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f11.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/image 2.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/image 2.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f12.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f12.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/logo.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/logo.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f13.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f13.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/seven.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/seven.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f15.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f15.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/one.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/one.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f16.png') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f16.png') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/two.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/two.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f17.png') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f17.png') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/tom-yum-seafood.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/tom-yum-seafood.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f18.JPG') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f18.JPG') }}" class=" aspect-[16/8] hidden">
                     </a>
-                    <a href="{{ asset('img/image 5.png') }}" data-fancybox="gallery">
-                        <img src="{{ asset('img/image 5.png') }}" class=" aspect-[16/8] hidden">
+                    <a href="{{ asset('img/f19.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('img/f19.jpg') }}" class=" aspect-[16/8] hidden">
                     </a>
                 </div>
 
