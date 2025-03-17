@@ -113,45 +113,45 @@
             </div>
         </section>
 
-        <section class="text-black mb-8 lg:mb-16 animation-two" id="portfolio_section">
-            <div id="portfolio_slider" class=" w-10/12 mx-auto portfolio-arrow">
+        <section class="text-black mb-8 lg:mb-16 animation-two" id="portfolio_section_one">
+            <div id="portfolio_slider_one" class=" w-10/12 mx-auto portfolio-arrow">
                 <div class="relative">
-                    <img src="{{ asset('img/four.png') }}" class=" aspect-[16/8]" alt="">
+                    <img src="{{ asset('img/f18.JPG') }}" class=" aspect-[16/8]" alt="">
                     <p class=" absolute left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)" data-lang="portfolio">
                         <!-- Portfolio -->
                     </p>
                     <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
-                        ABC Trading Company
+                        Queen Residence
                     </p>
                     <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
                         Mandalay, Myanmar
                     </p>
                 </div>
                 <div>
-                    <img src="{{ asset('img/three.png') }}" class="w-full aspect-[16/8]" alt="">
+                    <img src="{{ asset('img/f4.JPG') }}" class="w-full aspect-[16/8]" alt="">
                     <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
                         Portfolio
                     </p>
                     <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
-                        ABC Trading Company
+                        Queen Residence
                     </p>
                     <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
                         Mandalay, Myanmar
                     </p>
                 </div>
                 <div>
-                    <img src="{{ asset('img/five.png') }}" class=" aspect-[16/8]" alt="">
+                    <img src="{{ asset('img/f17.png') }}" class=" aspect-[16/8]" alt="">
                     <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
                         Portfolio
                     </p>
                     <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
-                        ABC Trading Company
+                        Queen Residence
                     </p>
                     <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
                         Mandalay, Myanmar
                     </p>
                 </div>
-                <div>
+                <!-- <div>
                     <img src="{{ asset('img/six.png') }}" class=" aspect-[16/8]" alt="">
                     <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
                         Portfolio
@@ -162,9 +162,93 @@
                     <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
                         Mandalay, Myanmar
                     </p>
+                </div> -->
+            </div>
+        </section>
+
+
+        <section class="text-black mb-8 lg:mb-16 animation-two" id="portfolio_section_two">
+            <div id="portfolio_slider_two" class=" w-10/12 mx-auto portfolio-arrow">
+                <div class="relative">
+                    <img src="{{ asset('img/p1.JPG') }}" class=" aspect-[16/8]" alt="">
+                    <p class=" absolute left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)" data-lang="portfolio">
+                        <!-- Portfolio -->
+                    </p>
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
+                        Happy Life Motel
+                    </p>
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
+                        Mandalay, Myanmar
+                    </p>
+                </div>
+                <div>
+                    <img src="{{ asset('img/Joni.JPG') }}" class="w-full aspect-[16/8]" alt="">
+                    <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
+                        Portfolio
+                    </p>
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
+                        Happy Life Motel
+                    </p>
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
+                        Mandalay, Myanmar
+                    </p>
+                </div>
+                <div>
+                    <img src="{{ asset('img/p3.PNG') }}" class=" aspect-[16/8]" alt="">
+                    <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
+                        Portfolio
+                    </p>
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
+                        Happy Life Motel
+                    </p>
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
+                        Mandalay, Myanmar
+                    </p>
                 </div>
             </div>
         </section>
+
+        <section class="text-black mb-8 lg:mb-16 animation-two" id="portfolio_section_three">
+            <div id="portfolio_slider_three" class=" w-10/12 mx-auto portfolio-arrow">
+                <div class="relative">
+                    <img src="{{ asset('img/p4.png') }}" class=" aspect-[16/8]" alt="">
+                    <p class=" absolute left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)" data-lang="portfolio">
+                        <!-- Portfolio -->
+                    </p>
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
+                        Baby Nail Salon
+                    </p>
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
+                        Mandalay, Myanmar
+                    </p>
+                </div>
+                <div>
+                    <img src="{{ asset('img/p5.png') }}" class="w-full aspect-[16/8]" alt="">
+                    <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
+                        Portfolio
+                    </p>
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
+                        Baby Nail Salon
+                    </p>
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
+                        Mandalay, Myanmar
+                    </p>
+                </div>
+                <div>
+                    <img src="{{ asset('img/p6.png') }}" class=" aspect-[16/8]" alt="">
+                    <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
+                        Portfolio
+                    </p>
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
+                        Baby Nail Salon
+                    </p>
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
+                        Mandalay, Myanmar
+                    </p>
+                </div>
+            </div>
+        </section>
+
 
 
         
@@ -506,7 +590,31 @@
             ],
         });
 
-        $('#portfolio_slider').slick({
+        $('#portfolio_slider_one').slick({
+            infinite: true,
+            arrows:true,
+            dot:false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            cssEase: 'linear'
+
+        });
+        $('#portfolio_slider_two').slick({
+            infinite: true,
+            arrows:true,
+            dot:false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            cssEase: 'linear'
+
+        });
+        $('#portfolio_slider_three').slick({
             infinite: true,
             arrows:true,
             dot:false,
