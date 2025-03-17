@@ -21,7 +21,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class=" @yield('project') " id="portfolio_scroll">
+                    <a href="#" class="  " id="portfolio_scroll">
                             Portfolio
                     </a>
                 </li>

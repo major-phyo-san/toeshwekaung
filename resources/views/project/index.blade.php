@@ -28,17 +28,17 @@
                 
                 <div class="mb-12 lg:mb-40 group project-one">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">CO CO Store</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Queen Residence</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
-                            <img src="{{ asset('img/four.png') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
+                            <img src="{{ asset('img/queen.JPG') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
                         </div>
                         <div class="w-full lg:w-[40%] basis-full lg:basis-[40%] flex-shrink flex-grow-0 grid lg:grid-rows-2">
                             <div class="grid grid-cols-3 gap-x-4 pt-4 mb-6 lg:mb-0">
-                                <img src="{{ asset('img/seven.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/one.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/three.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/f4.JPG') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/f17.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/f7.JPG') }}" class="w-full aspect-[4/3]" alt="">
                             </div>
                             <div class="px-2 flex flex-col justify-end group-even:text-right">
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
@@ -53,17 +53,17 @@
                 </div>
                 <div class="mb-12 lg:mb-40 group project-two">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">CO CO Store</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Happy Life Motel</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
-                            <img src="{{ asset('img/four.png') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
+                            <img src="{{ asset('img/p2.JPG') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
                         </div>
                         <div class="w-full lg:w-[40%] basis-full lg:basis-[40%] flex-shrink flex-grow-0 grid lg:grid-rows-2">
                             <div class="grid grid-cols-3 gap-x-4 pt-4 mb-6 lg:mb-0">
-                                <img src="{{ asset('img/seven.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/one.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/three.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/p1.JPG') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/p3.PNG') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/Joni.JPG') }}" class="w-full aspect-[4/3]" alt="">
                             </div>
                             <div class="px-2 flex flex-col justify-end group-even:text-right">
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
@@ -78,17 +78,17 @@
                 </div>
                 <div class="mb-12 lg:mb-40 group project-three">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">CO CO Store</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Baby Nail Salon</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
-                            <img src="{{ asset('img/four.png') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
+                            <img src="{{ asset('img/p6.png') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
                         </div>
                         <div class="w-full lg:w-[40%] basis-full lg:basis-[40%] flex-shrink flex-grow-0 grid lg:grid-rows-2">
                             <div class="grid grid-cols-3 gap-x-4 pt-4 mb-6 lg:mb-0">
-                                <img src="{{ asset('img/seven.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/one.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/three.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/p4.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/p5.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/baby.png') }}" class="w-full aspect-[4/3]" alt="">
                             </div>
                             <div class="px-2 flex flex-col justify-end group-even:text-right">
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
@@ -103,17 +103,17 @@
                 </div>
                 <div class="mb-12 lg:mb-40 group project-four">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">CO CO Store</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">71 Residence</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
-                            <img src="{{ asset('img/four.png') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
+                            <img src="{{ asset('img/sevenone6.jpg') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
                         </div>
                         <div class="w-full lg:w-[40%] basis-full lg:basis-[40%] flex-shrink flex-grow-0 grid lg:grid-rows-2">
                             <div class="grid grid-cols-3 gap-x-4 pt-4 mb-6 lg:mb-0">
-                                <img src="{{ asset('img/seven.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/one.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/three.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/sevenone1.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/sevenone3.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/sevenone5.png') }}" class="w-full aspect-[4/3]" alt="">
                             </div>
                             <div class="px-2 flex flex-col justify-end group-even:text-right">
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
@@ -128,17 +128,42 @@
                 </div>
                 <div class="mb-12 lg:mb-40 group project-five">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">CO CO Store</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Unique Mandalay Cafe</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
-                            <img src="{{ asset('img/four.png') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
+                            <img src="{{ asset('img/unique1.JPG') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
                         </div>
                         <div class="w-full lg:w-[40%] basis-full lg:basis-[40%] flex-shrink flex-grow-0 grid lg:grid-rows-2">
                             <div class="grid grid-cols-3 gap-x-4 pt-4 mb-6 lg:mb-0">
-                                <img src="{{ asset('img/seven.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/one.png') }}" class="w-full aspect-[4/3]" alt="">
-                                <img src="{{ asset('img/three.png') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/unique2.JPG') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/unique3.JPG') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/unique4.JPG') }}" class="w-full aspect-[4/3]" alt="">
+                            </div>
+                            <div class="px-2 flex flex-col justify-end group-even:text-right">
+                                <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
+                                    3 Story Building
+                                </p>
+                                <p class="text-black text-sm lg:text-lg pb-8">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-12 lg:mb-40 group project-six">
+                    <div class="">
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Baby Nail Salon Post</p>
+                    </div>
+                    <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
+                        <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
+                            <img src="{{ asset('img/bnsp1.JPG') }}" class=" aspect-[2/1.2] border lg:border-0 border-black" alt="">
+                        </div>
+                        <div class="w-full lg:w-[40%] basis-full lg:basis-[40%] flex-shrink flex-grow-0 grid lg:grid-rows-2">
+                            <div class="grid grid-cols-3 gap-x-4 pt-4 mb-6 lg:mb-0">
+                                <img src="{{ asset('img/bnsp2.JPG') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/bnsp3.JPG') }}" class="w-full aspect-[4/3]" alt="">
+                                <img src="{{ asset('img/bnsp4.JPG') }}" class="w-full aspect-[4/3]" alt="">
                             </div>
                             <div class="px-2 flex flex-col justify-end group-even:text-right">
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
@@ -211,6 +236,18 @@
         gsap.to('.project-five', {
             scrollTrigger: {
                 trigger: '.project-five',
+                start: 'top 80%',
+                end: 'bottom center',
+                toggleActions: 'play none none none',
+            },
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power2.out',
+        });
+        gsap.to('.project-six', {
+            scrollTrigger: {
+                trigger: '.project-six',
                 start: 'top 80%',
                 end: 'bottom center',
                 toggleActions: 'play none none none',
