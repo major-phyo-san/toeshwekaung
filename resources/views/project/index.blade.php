@@ -10,7 +10,7 @@
             <div class="parallax-container relative">
                 <div class="absolute bottom-24 lg:bottom-[22%] z-30 w-10/12 lg:w-1/2">
                     <p class="text-white text-3xl lg:text-6xl mb-6">Project</p>
-                    <p class="text-sm lg:text-xl text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit et magni nihil recusandae. Molestiae amet animi fugit adipisci, ad voluptas ex! Possimus velit corporis temporibus doloribus doloremque rerum inventore culpa.</p>
+                    <p class="text-sm lg:text-xl text-white">At ToeshweKaung, each project represents a unique story—crafted with creativity, guided by precision, and driven by our passion for excellence. From the initial spark of an idea through every thoughtful detail, our work reflects our commitment to innovation, quality, and purpose. Explore below to learn how we transform challenges into inspiring outcomes, and how our collaborations deliver meaningful results across design, development, and beyond.</p>
                 </div>
                 
                 <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#12101073]"></div>
@@ -26,9 +26,9 @@
             
             <div class="w-10/12 mx-auto">
                 
-                <div class="mb-12 lg:mb-40 group project-one">
+                <div class="mb-12 lg:mb-20 group project-one">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Queen Residence</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-12">Queen Residence</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
@@ -44,16 +44,43 @@
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
                                     3 Story Building
                                 </p>
-                                <p class="text-black text-sm lg:text-lg pb-8">
+                                <!-- <p class="text-black text-sm lg:text-lg pb-8">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                                </p>
+                                </p> -->
+                                <ul class=" text-black text-sm lg:text-lg pb-8">
+                                    <li>
+                                        <p>
+                                            Project Type - Residential
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Job Scope - Interior Design. & Decoration
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Team - Kaung Zaw Win , Li Li , Swan Ye Naing , Myo Thein Kha
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Location  - Amarapura Township
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Year - 2024
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mb-12 lg:mb-40 group project-two">
+                <div class="mb-12 lg:mb-20 group project-two">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Happy Life Motel</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-12">Happy Life Motel</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
@@ -69,16 +96,48 @@
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
                                     3 Story Building
                                 </p>
-                                <p class="text-black text-sm lg:text-lg pb-8">
+                                <!-- <p class="text-black text-sm lg:text-lg pb-8">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                                </p>
+                                </p> -->
+                                <ul class=" text-black text-sm lg:text-lg pb-8">
+                                    <li>
+                                        <p>
+                                            Project Type - Commercial Building
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Job Scope - Interior Design. ,  Renovation & Decoration 
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            M&E - Space Design + Training
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Team - Kaung Zaw Win , Li Li , Swan Ye Naing , Myo Thein Kha , Sandar Htun
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Location  - Chan Aye That San , Mandalay
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Year - 2024
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mb-12 lg:mb-40 group project-three">
+                <div class="mb-12 lg:mb-20 group project-three">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Baby Nail Salon</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-12">Baby Nail Salon</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
@@ -94,16 +153,43 @@
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
                                     3 Story Building
                                 </p>
-                                <p class="text-black text-sm lg:text-lg pb-8">
+                                <!-- <p class="text-black text-sm lg:text-lg pb-8">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                                </p>
+                                </p> -->
+                                <ul class=" text-black text-sm lg:text-lg pb-8">
+                                    <li>
+                                        <p>
+                                            Project Type - Commercial Building
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Job Scope - Interior Design & Supervision
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Team - Kaung Zaw Win , Li Li , Swan Ye Naing
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Location  - Mahar Aung Myay Township , Mandalay
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Project Year - 2024
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mb-12 lg:mb-40 group project-four">
+                <div class="mb-12 lg:mb-20 group project-four">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">71 Residence</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-12">71 Residence</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
@@ -119,16 +205,40 @@
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
                                     3 Story Building
                                 </p>
-                                <p class="text-black text-sm lg:text-lg pb-8">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                                </p>
+                                <ul class=" text-black text-sm lg:text-lg pb-8">
+                                    <li>
+                                        <p>
+                                        Project Type - Commercial Building
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Job Scope - Design & Decoration
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Project Team - Kaung Zaw Win , Li Li
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Project Location  - Mahar Aung Myay Township , Mandalay
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Project Year - 2023
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mb-12 lg:mb-40 group project-five">
+                <div class="mb-12 lg:mb-20 group project-five">
                     <div class="">
-                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Unique Mandalay Cafe</p>
+                        <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-12">Unique Mandalay Cafe</p>
                     </div>
                     <div class="flex gap-x-8 flex-col lg:flex-row lg:group-even:flex-row-reverse">
                         <div class="w-full lg:w-[60%] basis-full lg:basis-[60%] flex-shrink-0 flex-grow-0">
@@ -144,14 +254,38 @@
                                 <p class="text-2xl lg:text-4xl text-black mb-4 lg:mb-12">
                                     3 Story Building
                                 </p>
-                                <p class="text-black text-sm lg:text-lg pb-8">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                                </p>
+                                <ul class=" text-black text-sm lg:text-lg pb-8">
+                                    <li>
+                                        <p>
+                                        Project Type - Commercial Building
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Job Scope - Renovation & Decoration
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Project Team - Kaung Zaw Win , Li Li , Swan Ye Naing , Myo Thein Kha , Aung Myo Thant
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Project Location  - Mahar Aung Myay Township , Mandalay
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                        Project Year - 2024
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mb-12 lg:mb-40 group project-six">
+                <!-- <div class="mb-12 lg:mb-40 group project-six">
                     <div class="">
                         <p class=" text-2xl lg:text-4xl text-black text-left lg:text-center mb-4 lg:mb-8">Baby Nail Salon Post</p>
                     </div>
@@ -172,10 +306,11 @@
                                 <p class="text-black text-sm lg:text-lg pb-8">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
                                 </p>
+                                
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 
             </div>
         </section>

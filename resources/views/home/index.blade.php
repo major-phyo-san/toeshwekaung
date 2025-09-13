@@ -52,7 +52,7 @@
                     </div>
                     <div class="grid grid-flow-col grid-rows-3 grid-cols-2 lg:grid-cols-5 gap-y-4 gap-x-8">
                         <div class=" row-span-3 flex col-span-1 lg:col-span-2">
-                            <img src="{{ asset('img/two.png') }}" class="w-full mt-auto" alt="">
+                            <img src="{{ asset('img/girl.jpg') }}" class="w-full mt-auto" alt="">
                         </div>
                         <div class="col-span-1 lg:col-span-3">
                             <p class="text-2xl lg:text-[2.75rem] leading-[1.25] text-black mb-1.5">
@@ -63,7 +63,7 @@
                             </p>
                         </div>
                         <div class=" col-span-1 lg:col-span-3 row-span-2 flex lg:block items-end">
-                            <img src="{{ asset('img/three.png') }}" class="w-full" alt="">
+                            <img src="{{ asset('img/two_photo.png') }}" class="w-full" alt="">
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
         <section class="text-black mb-8 lg:mb-16 animation-two" id="portfolio_section_one">
             <div id="portfolio_slider_one" class=" w-10/12 mx-auto portfolio-arrow">
                 <div class="relative">
-                    <img src="{{ asset('img/f18.JPG') }}" class=" aspect-[16/8]" alt="">
+                    <img src="{{ asset('img/queen_one.JPG') }}" class=" aspect-[16/8]" alt="">
                     <p class=" absolute left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)" data-lang="portfolio">
                         <!-- Portfolio -->
                     </p>
@@ -128,7 +128,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="{{ asset('img/f4.JPG') }}" class="w-full aspect-[16/8]" alt="">
+                    <img src="{{ asset('img/queen_five.JPG') }}" class="w-full aspect-[16/8]" alt="">
                     <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
                         Portfolio
                     </p>
@@ -140,7 +140,19 @@
                     </p>
                 </div>
                 <div>
-                    <img src="{{ asset('img/f17.png') }}" class=" aspect-[16/8]" alt="">
+                    <img src="{{ asset('img/queen_two.JPG') }}" class=" aspect-[16/8]" alt="">
+                    <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
+                        Portfolio
+                    </p>
+                    <p class=" absolute bottom-6 left-4 lg:left-8 text-white text-sm lg:text-lg">
+                        Queen Residence
+                    </p>
+                    <p class=" absolute bottom-6 right-4 lg:right-8 text-white text-sm lg:text-lg">
+                        Mandalay, Myanmar
+                    </p>
+                </div>
+                <div>
+                    <img src="{{ asset('img/queen_four.JPG') }}" class=" aspect-[16/8]" alt="">
                     <p class=" absolute top-6 left-4 lg:left-8 text-black text-sm lg:text-lg" style="top: calc(3% + 12px)">
                         Portfolio
                     </p>
@@ -293,16 +305,31 @@
                         </div>
                     
                         <div id="customer_slider" class="col-span-8 lg:col-span-4 xl:col-span-6 w-full lg:w-10/12 mx-auto pt-4 lg:pt-0 slider-arrow">
-                            @for ($i = 0; $i < 3; $i++)
                             <div class=" px-6 lg:px-16 text-center lg:text-left">
-                                <img src="{{ asset('img/hotpot.jpeg') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
-                                <p class="text-[#EDBC0E] text-2xl mb-1">Pork Hot Pot</p>
-                                <p class="text-sm text-gray-600 mb-4">Test meal</p>
+                                <img src="{{ asset('img/u_aung_kyaw_oo.jpg') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
+                                <p class="text-[#EDBC0E] text-2xl mb-1">U Aung Kyaw Oo</p>
+                                <p class="text-sm text-gray-600 mb-4">Happy Life Motel Owner</p>
                                 <p class="text-black leading-6">
-                                    in East Asian cooking a dish consisting of raw ingredients such as thinly sliced meat and vegetables that are cooked by diners at the table by dipping them in boiling broth.
+                                အိမ်ရှင်ဖြစ်စေချင်တဲ့ ဆန ကို အဆင်ပြေအောင် ချက်ချင်းဆောင်ရွက်ပေးပြီး လုပ်ငန်းခွင်အတွင်းမှာလည်း  တိတိကျကျ အလေ့အလွင့်မရှိ 	လုပ်ဆောင်ပေးလို့ လှည့်ကြည့်စရာမလိုတဲ့ထိ စိတ်ကျေနပ်မှုရခဲ့ပါတယ် လုပ်ငန်းပြီးစီးမှုနဲ့  ငွေကြေးထုတ်ယူမှု အပိုင်းမှာလည်း စိတ်ကျေနပ်မှုရခဲ့ပြီး ပန်းရံ ဆေး အားလုံး စိတ်တိုင်းကျခဲ့ရတာမို့ T.S.K နဲ့ အလုပ်လုပ်ကြည့်ပါလို့ ပြောချင်ပါတယ် 
                                 </p>
                             </div>
-                            @endfor
+                            <div class=" px-6 lg:px-16 text-center lg:text-left">
+                                <img src="{{ asset('img/daw_mma.png') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
+                                <p class="text-[#EDBC0E] text-2xl mb-1">Daw Myint Myint Aung</p>
+                                <p class="text-sm text-gray-600 mb-4">71A Residence Owner</p>
+                                <p class="text-black leading-6">
+                                    T.S.K Construction And Decoration နဲ့တည်ဆောက်ခဲ့တာ အရမ်းကျေနပ် ပိတိဖြစ်ရပါတယ် လုပ်ငန်း တိကျ သပ်ရပ်ခြင်းအပေါ် စိတ်တိုင်းကျကျေနပ်ခဲ့ရပါတယ်
+                                    အချိန်တိကျ လုပ်နိုင်ခြင်းအပေါ်မှာလည်း ကျေနပ်ပိတိဖြစ်ရပါတယ် ရှင်
+                                </p>
+                            </div>
+                            <div class=" px-6 lg:px-16 text-center lg:text-left">
+                                <img src="{{ asset('img/images.jpeg') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
+                                <p class="text-[#EDBC0E] text-2xl mb-1">Ma Kyu Kyu Sint </p>
+                                <p class="text-sm text-gray-600 mb-4">103 Residence Owner</p>
+                                <p class="text-black leading-6">
+                                    T,S,K Construction and Decoration နဲ့ဆောက်ခဲ့တာအရမ်းအဆင်ပြေပါတယ် လိုချင်တဲ့အချိန်တိုအတွင်းဆောက်လုပ်ပေးနိုင်ခဲ့ခြင်းအပေါ်လည်းကျေနပ်မိပါတယ်ရှင့်
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -420,7 +447,7 @@
             <div class="block lg:hidden">
                 <div id="package_slider" class="h-fit">
                     <div>
-                        <div class=" bg-[#7D0103] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
+                        <div class=" bg-[#7D0103] py-12 px-6 gap-y-6 flex flex-col h-[370px]">
                             <i class="fal fa-sign-out-alt text-white text-2xl"></i>
                             <p class="text-sm text-white leading-6">
                             We take pride in our Skilful Engineering Works, delivering precision, innovation, and durability in every project. Our expert team combines advanced technology with superior craftsmanship to create cost-effective, high-quality construction solutions that stand the test of time.
@@ -428,7 +455,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class=" bg-[#D9D9D9] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
+                        <div class=" bg-[#D9D9D9] py-12 px-6 gap-y-6 flex flex-col h-[370px]">
                             <i class="fal fa-truck-container text-black text-2xl"></i>
                             <p class="text-sm text-black leading-6">
                             Powered by highly trained professionals who bring precision and expertise to every project. With advanced technology and a team of skilled workers, we deliver durable, efficient, and high-quality construction solutions.
@@ -436,18 +463,23 @@
                         </div>
                     </div>
                     <div>
-                        <div class=" bg-[#7a7a7a] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
+                        <div class=" bg-[#7a7a7a] py-12 px-6 gap-y-6 flex flex-col h-[370px]">
                             <i class="fal fa-tree-palm text-white text-2xl"></i>
                             <p class="text-sm text-white leading-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                            CAD and 3D modeling for accurate visualizations
+Sustainable and energy-efficient building solutions
+Custom architectural detailing to match your vision 
                             </p>
                         </div>
                     </div>
                     <div>
-                        <div class=" bg-[#EDBC0D] py-12 px-6 gap-y-24 flex flex-col h-[370px]">
+                        <div class=" bg-[#EDBC0D] py-12 px-6 gap-y-6 flex flex-col h-[370px]">
                             <i class="fal fa-bolt text-black text-2xl"></i>
                             <p class="text-sm text-black leading-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            Meticulous attention to detail in every stage of construction
+Strong teamwork, leadership, and collaboration
+Adaptability to evolving project needs and on-site challenges
+Dedication to delivering on time and within budget
                             </p>
                         </div>
                     </div>
