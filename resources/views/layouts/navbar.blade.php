@@ -11,7 +11,7 @@
                     </a>
                 </li>
                 <li class="hidden lg:block">
-                    <a href="#" class=" @yield('service') service_scroll">
+                    <a href="/home" class=" @yield('service') service_scroll">
                             Services
                     </a>
                 </li>
@@ -31,12 +31,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class=" @yield('testimonials') testimonial_scroll">
+                    <a href="/home" class=" @yield('testimonials') testimonial_scroll">
                             Testimonials
                     </a>
                 </li>
                 <li>
-                    <a href="#" class=" @yield('contacts') contact_scroll">
+                    <a href="/home" class=" @yield('contacts') contact_scroll">
                             Contacts
                     </a>
                 </li>

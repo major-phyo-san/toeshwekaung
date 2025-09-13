@@ -55,8 +55,8 @@
                 </div> -->
 
                 <div class=" grid grid-cols-2 gap-x-4 gallery">
-                    <a href="{{ asset('img/six.png') }}" data-fancybox="gallery" class="mb-4">
-                        <img src="{{ asset('img/six.png') }}" class=" aspect-[16/8]">
+                    <a href="{{ asset('img/queen.JPG') }}" data-fancybox="gallery" class="mb-4">
+                        <img src="{{ asset('img/queen.JPG') }}" class=" aspect-[16/8]">
                     </a>
                     <a href="{{ asset('img/f2.JPG') }}" data-fancybox="gallery" class="mb-4">
                         <img src="{{ asset('img/f2.JPG') }}" class=" aspect-[16/8]">
