@@ -308,25 +308,25 @@
                             <div class=" px-6 lg:px-16 text-center lg:text-left">
                                 <img src="{{ asset('img/u_aung_kyaw_oo.jpg') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
                                 <p class="text-[#EDBC0E] text-2xl mb-1">U Aung Kyaw Oo</p>
-                                <p class="text-sm text-gray-600 mb-4">Happy Life Motel Owner</p>
-                                <p class="text-black leading-6">
-                                အိမ်ရှင်ဖြစ်စေချင်တဲ့ ဆန ကို အဆင်ပြေအောင် ချက်ချင်းဆောင်ရွက်ပေးပြီး လုပ်ငန်းခွင်အတွင်းမှာလည်း  တိတိကျကျ အလေ့အလွင့်မရှိ 	လုပ်ဆောင်ပေးလို့ လှည့်ကြည့်စရာမလိုတဲ့ထိ စိတ်ကျေနပ်မှုရခဲ့ပါတယ် လုပ်ငန်းပြီးစီးမှုနဲ့  ငွေကြေးထုတ်ယူမှု အပိုင်းမှာလည်း စိတ်ကျေနပ်မှုရခဲ့ပြီး ပန်းရံ ဆေး အားလုံး စိတ်တိုင်းကျခဲ့ရတာမို့ T.S.K နဲ့ အလုပ်လုပ်ကြည့်ပါလို့ ပြောချင်ပါတယ် 
+                                <p class="text-sm text-gray-600 mb-4 font-semibold">Happy Life Motel Owner</p>
+                                <p class="text-black leading-7 text-sm">
+                                အိမ်ရှင်ဖြစ်စေချင်တဲ့ ဆန္ဒ ကို အဆင်ပြေအောင် ချက်ချင်းဆောင်ရွက်ပေးပြီး လုပ်ငန်းခွင်အတွင်းမှာလည်း  တိတိကျကျ အလေ့အလွင့်မရှိ 	လုပ်ဆောင်ပေးလို့ လှည့်ကြည့်စရာမလိုတဲ့ထိ စိတ်ကျေနပ်မှုရခဲ့ပါတယ် လုပ်ငန်းပြီးစီးမှုနဲ့  ငွေကြေးထုတ်ယူမှု အပိုင်းမှာလည်း စိတ်ကျေနပ်မှုရခဲ့ပြီး ပန်းရံ ဆေး အားလုံး စိတ်တိုင်းကျခဲ့ရတာမို့ T.S.K နဲ့ အလုပ်လုပ်ကြည့်ပါလို့ ပြောချင်ပါတယ် 
                                 </p>
                             </div>
                             <div class=" px-6 lg:px-16 text-center lg:text-left">
                                 <img src="{{ asset('img/daw_mma.png') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
                                 <p class="text-[#EDBC0E] text-2xl mb-1">Daw Myint Myint Aung</p>
-                                <p class="text-sm text-gray-600 mb-4">71A Residence Owner</p>
-                                <p class="text-black leading-6">
-                                    T.S.K Construction And Decoration နဲ့တည်ဆောက်ခဲ့တာ အရမ်းကျေနပ် ပိတိဖြစ်ရပါတယ် လုပ်ငန်း တိကျ သပ်ရပ်ခြင်းအပေါ် စိတ်တိုင်းကျကျေနပ်ခဲ့ရပါတယ်
-                                    အချိန်တိကျ လုပ်နိုင်ခြင်းအပေါ်မှာလည်း ကျေနပ်ပိတိဖြစ်ရပါတယ် ရှင်
+                                <p class="text-sm text-gray-600 mb-4 font-semibold">71A Residence Owner</p>
+                                <p class="text-black leading-7 text-sm">
+                                    T.S.K Construction And Decoration နဲ့တည်ဆောက်ခဲ့တာ အရမ်းကျေနပ် ပီတိဖြစ်ရပါတယ် လုပ်ငန်း တိကျ သပ်ရပ်ခြင်းအပေါ် စိတ်တိုင်းကျကျေနပ်ခဲ့ရပါတယ်
+                                    အချိန်တိကျ လုပ်နိုင်ခြင်းအပေါ်မှာလည်း ကျေနပ်ပီတိဖြစ်ရပါတယ် ရှင်
                                 </p>
                             </div>
                             <div class=" px-6 lg:px-16 text-center lg:text-left">
-                                <img src="{{ asset('img/images.jpeg') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
+                                <img src="{{ asset('img/ma_kks.png') }}" class=" rounded-full aspect-square w-32 mx-auto lg:mx-0  mb-6" alt="">
                                 <p class="text-[#EDBC0E] text-2xl mb-1">Ma Kyu Kyu Sint </p>
-                                <p class="text-sm text-gray-600 mb-4">103 Residence Owner</p>
-                                <p class="text-black leading-6">
+                                <p class="text-sm text-gray-600 mb-4 font-semibold">103 Residence Owner</p>
+                                <p class="text-black leading-7 text-sm">
                                     T,S,K Construction and Decoration နဲ့ဆောက်ခဲ့တာအရမ်းအဆင်ပြေပါတယ် လိုချင်တဲ့အချိန်တိုအတွင်းဆောက်လုပ်ပေးနိုင်ခဲ့ခြင်းအပေါ်လည်းကျေနပ်မိပါတယ်ရှင့်
                                 </p>
                             </div>
